@@ -1,0 +1,67 @@
+# Environment variables
+.env
+
+# Config files with sensitive data (in parent directory)
+../config/openai_key.txt
+../config/google_credentials.json
+../config/*.json
+
+# Query files with internal database structure
+queries/sql_queries.py
+queries/cypher_queries.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Output files
+*.csv
+*.json
+node_extraction_json*/
+metadata_*/
+
+# RAG files
+RAG.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# test files
+test/
